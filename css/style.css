@@ -347,14 +347,15 @@ a{
     position: absolute;
     left: 15%;
     width: 70%;
-    height: 84%;
+    height: 330px;
     display: flex;
     justify-content: space-between;
 }
 
 .blog-card1{
     width: 30%;
-    margin-top: 10%;
+    height: 330px;
+    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -374,7 +375,8 @@ a{
 
 .blog-card2{
     width: 30%;
-    margin-top: 10%;
+    height: 330px;
+    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -394,7 +396,8 @@ a{
 
 .blog-card3{
     width: 30%;
-    margin-top: 10%;
+    height: 330px;
+    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -423,23 +426,25 @@ a{
     border-top-left-radius: 6px;
 }
 
-.b-footer{
-    display: flex;
-    justify-content: space-around;
+.sub-sentence{ 
+  width: 30%;
+  height: auto;
+  bottom: 0;
+  display: inline;
+  text-align: center;    
 }
 
 .b-date{
     font-size: 12px;
-    margin-top: 10%;
     color: rgb(117, 116, 116);
     font-weight: bold;
+    box-sizing: content-box;
+    margin-top: 15%;    
 }
 
-.b-h{
-    font-size: 12px;
-    margin-top: 10%;
+.b-date span{
+    margin-left: 10px;
     color: rgb(117, 116, 116);
-    font-weight: bold;
 }
 
 .blog-btn{
