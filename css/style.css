@@ -348,6 +348,7 @@ a{
     left: 15%;
     width: 70%;
     height: 330px;
+    margin-top: 6%;
     display: flex;
     justify-content: space-between;
 }
@@ -355,7 +356,6 @@ a{
 .blog-card1{
     width: 30%;
     height: 330px;
-    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -376,7 +376,6 @@ a{
 .blog-card2{
     width: 30%;
     height: 330px;
-    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -397,7 +396,6 @@ a{
 .blog-card3{
     width: 30%;
     height: 330px;
-    margin-top: 9%;
     border: 1px solid rgb(141, 138, 138);
     border-radius: 6px;
     position: relative;
@@ -427,19 +425,19 @@ a{
 }
 
 .sub-sentence{ 
-  width: 30%;
+  width: 100%;
   height: auto;
+  position: absolute;
   bottom: 0;
-  display: inline;
-  text-align: center;    
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .b-date{
     font-size: 12px;
     color: rgb(117, 116, 116);
     font-weight: bold;
-    box-sizing: content-box;
-    margin-top: 15%;    
+    
 }
 
 .b-date span{
@@ -458,8 +456,7 @@ a{
     border:  2px solid rgb(231, 8, 120) ;
     padding: 1%;
     margin-top: 13%;
-    font-size: 20px;
-    display: block;
+    font-size: 20px;    
 }
 
 .company{
